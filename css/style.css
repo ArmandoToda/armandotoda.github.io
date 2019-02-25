@@ -1,0 +1,413 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #efefef;
+	color: #3c3c3c;
+	line-height: 22px;
+}
+
+.no-padding{
+	padding: 0 !important;
+}
+
+h2{
+	font-family: 'Playfair Display', serif;
+	margin: 10px 0 5px;
+	font-size: 26px;
+	font-style: italic;
+}
+ul {
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+.container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.profile,
+.infos{
+	background-color: #ffffff;
+	margin: 10px;
+	-webkit-box-shadow: 0 2px 10px rgba(0,0,0,.1);
+	box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+.divisor {
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 0px 0 30px;
+}
+
+.divisor > i.fa {
+    background-color: #ffffff;
+    border: 1px solid #d8d8d8;
+    color: #00BCD4;
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;    
+    font-size: 21px;
+}
+
+.divisor > i.fa.fa-th-large,
+.divisor > i.fa.fa-graduation-cap,
+.divisor > i.fa.fa-flag {
+    padding-top: 9px;
+}
+
+.divisor > i.fa.fa-globe {
+    padding-top: 8px;
+}
+
+/************ PROFILE ***************/
+
+.profile .photo {
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    border: 4px solid #00BCD4;
+}
+
+.profile .photo > img {
+    opacity: 0;
+}
+
+.profile h1.name {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    text-align: center;
+    color: #00BCD4;
+    font-style: italic;
+}
+
+.profile .schooling {
+    text-align: center;
+    font-size: 16px;
+}
+
+.profile ul.contacts {
+    margin: 20px 0;
+}
+
+.profile ul.contacts > li {
+    color: #ffffff;
+    background-color: #00BCD4;
+    padding: 10px 15px;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
+}
+
+.profile ul.contacts > li > a{
+	color: #ffffff;
+}
+
+.profile ul.contacts > li > a:hover{
+	color: #3F51B5;
+	text-decoration: none; 
+}
+
+.profile ul.contacts > li > a:visited{
+	color: inherit;
+}
+
+.profile ul.contacts > li > .lattes {
+	width: 14px;
+	height: 18px;
+	display: inline-block;
+	background-image: url("../images/icons/lattes.svg");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-right: 5px;
+}
+
+.profile ul.contacts > li > i.fa {
+    margin-right: 10px;
+}
+.profile ul.contacts > li > i.fa.fa-mobile {
+    font-size: 22px;
+}
+
+.profile ul.social-media{
+	margin: 30px 0 40px;
+	text-align: center;
+}
+
+.profile ul.social-media > li{
+	display: inline-block;
+}
+
+.profile ul.social-media > li > a {
+    color: #3c3c3c;
+    font-size: 15px;
+    border: 2px solid #3c3c3c;
+    margin: 2px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+.profile ul.social-media > li > a:hover {
+    color: #00BCD4;
+    border-color: #00BCD4;
+}
+
+/************ INFOS ***************/
+.infos{
+	padding: 40px;
+}
+
+.infos .markup {
+    margin: 50px 0;
+}
+
+.infos .markup:first-child {
+    margin-top: 0px;
+}
+
+.infos .markup:last-child {
+    margin-bottom: 0px;
+}
+
+.infos .markup > i.fa {
+    font-size: 25px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00bcd4;
+    padding-top: 13px;
+}
+
+.infos .interest .divisor > i.fa {
+    color: #8BC34A;
+}
+
+.infos .interest .item {
+    min-height: 125px;
+    text-align: center;
+	margin-top: 20px;
+}
+
+.infos .interest .item h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.infos .interest .item i.fa {
+    font-size: 38px;
+    color: #8BC34A;
+    display: inline-block;
+}
+
+.infos .publications .divisor > i.fa {
+    color: #9c27b0;
+}
+
+.infos .publications li{
+	margin-bottom: 40px;
+}
+
+.infos .publications li h3.title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.infos .publications li h3.title > i.fa{
+	margin-right: 5px;
+}
+
+.infos .publications li h4 {
+    margin: 0px 0 30px;
+}
+
+.infos .publications li h4 .year {
+    font-size: 12px;
+    background-color: #9c27b0;
+    color: #ffffff;
+    padding: 2px 2px 2px 4px;
+    margin-right: 7px;
+}
+
+.infos .publications li h4 .authors {
+    font-size: 12px;
+}
+
+.infos .publications li .download > a{
+	color: #9c27b0;
+}
+
+.infos .publications li .download > a:hover{
+	text-decoration: none;
+	background-color: #9c27b0;
+	color: #ffffff;
+	padding: 5px;
+}
+.infos .publications li .download > a:visited{
+	padding: inherit;
+	color: inherit;
+	background-color: inherit;
+}
+
+.infos .publications li:last-child hr{
+	display: none;
+}
+
+.infos .publications li hr {
+    width: 130px;
+    border-top: 3px solid #efefef;
+}
+
+.infos .formation ul:before{
+    background: #ededed;
+    background: -moz-linear-gradient(top, #ededed 1%, #ededed 75%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ededed), color-stop(75%,#ededed), color-stop(100%,#ffffff));
+    background: -webkit-linear-gradient(top, #ededed 1%,#ededed 75%,#ffffff 100%);
+    background: -o-linear-gradient(top, #ededed 1%,#ededed 75%,#ffffff 100%);
+    background: -ms-linear-gradient(top, #ededed 1%,#ededed 75%,#ffffff 100%);
+    background: linear-gradient(to bottom, #ededed 1%,#ededed 75%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff',GradientType=0 );
+    bottom: 0;
+    content: "";
+    left: 18px;
+    position: absolute;
+    top: 2px;
+    width: 3px;
+    height: 100%;
+}
+
+.infos .formation .divisor > i.fa {
+    color: #ff0042;
+}
+
+.infos .formation li.item{
+	margin-bottom: 30px;
+}
+
+.infos .formation li.item p:not(.title) {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.infos .formation li.item p.title {
+    background-color: #efefef;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.infos .formation li.item p .date,
+.infos .formation li.item p .univesity{
+	display: block;
+}
+
+.infos .formation li.item p .date > i.fa,
+.infos .formation li.item p .univesity > i.fa{
+	margin-right: 7px;
+}
+
+.infos .formation li.item h4 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 0;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+
+.infos .formation li.item .point > i.fa{
+	background-color: #ff0042;
+    color: white;
+    font-size: 12px;
+    margin-left: -8px;
+    padding: 6px 8px;
+    border-radius: 50%;
+}
+
+.infos .experience .divisor > i.fa {
+    color: #FFC107;
+}
+
+.infos .experience .item{
+	margin-bottom: 40px;
+}
+
+.infos .experience .place {
+    background-color: #FFC107;
+    border-radius: 12px;
+    padding: 0 12px;
+    font-weight: 600;
+}
+
+.infos .experience p.description {
+    padding: 7px 0 7px 20px;
+    border-left: 1px solid #d8d8d8;
+    margin: 15px 0 0;
+}
+
+.infos .experience .time {
+	margin-left: -5px;
+}
+
+.infos .experience .time i.fa {
+    margin-right: 7px;
+}
+
+.infos .experience .time .period,
+.infos .experience .time .year {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/************ Portrait tablets and small desktops **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.profile .photo{
+		width: 50%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
+/************ Landscape phones and portrait tablets **********/
+@media (max-width: 767px) {
+	.container {
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+
+	h2{
+		text-align: center;
+	}
+
+	.divisor{
+		margin-top: 25px;
+	}
+
+	.divisor > i.fa {
+		right: 50%;
+		margin-right: -20px;
+	}
+
+	.infos .formation ul:before{
+		display: none;
+	}
+
+	.profile .photo{
+		width: 70%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
