@@ -46,7 +46,7 @@ li {
 .divisor > i.fa {
     background-color: #ffffff;
     border: 1px solid #d8d8d8;
-    color: #00BCD4;
+    color: #9c27b0;
     position: absolute;
     right: 20px;
     top: -20px;
@@ -76,7 +76,7 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 15px;
-    border: 4px solid #00BCD4;
+    border: 4px solid #9c27b0;
 }
 
 .profile .photo > img {
@@ -84,10 +84,10 @@ li {
 }
 
 .profile h1.name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display';
     font-size: 24px;
     text-align: center;
-    color: #00BCD4;
+    color: #9c27b0;
     font-style: italic;
 }
 
@@ -102,7 +102,7 @@ li {
 
 .profile ul.contacts > li {
     color: #ffffff;
-    background-color: #00BCD4;
+    background-color: #9c27b0;
     padding: 10px 15px;
     border-bottom: 1px dotted rgba(255, 255, 255, 0.4);
 }
@@ -160,8 +160,8 @@ li {
 }
 
 .profile ul.social-media > li > a:hover {
-    color: #00BCD4;
-    border-color: #00BCD4;
+    color: #9c27b0;
+    border-color: #9c27b0;
 }
 
 /************ INFOS ***************/
@@ -187,7 +187,7 @@ li {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #00bcd4;
+    background-color: #9c27b0;
     padding-top: 13px;
 }
 
